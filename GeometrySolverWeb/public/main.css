@@ -1,0 +1,245 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url('CenturyGothic.ttf');
+}
+
+body
+{
+    background-color: black;
+    font-family: "Century Gothic";
+    /* font-size: large; */
+}
+
+
+h1
+{
+    flex:3 0;
+    background-color: rgb(90, 90, 95);
+    color:gainsboro;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    margin: 0%;
+    user-select: none;
+}
+
+div
+{
+    display: flex;
+}
+
+canvas
+{
+    display: flex;
+    flex-flow:row wrap;
+    min-width: 50%;
+    /* height: 100%; */
+    flex:1 0;
+    justify-content:flex-start;
+    /* align-self: center; */
+    background-color: #9cecff;
+    object-fit: contain;
+}
+
+textarea
+{
+    color: gainsboro;
+    outline: none !important;
+    flex:1 0;
+    overflow-y: scroll;
+    background-color: rgb(32, 32, 32);
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px;
+    resize: none;
+}
+
+label
+{
+    color: black;   
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    user-select: none;
+}
+
+select
+{
+    font-family: "Century Gothic";
+    margin: 5px;
+}
+
+input
+{
+    width: 90%;
+    align-self: center;
+    border-radius: 5px;
+    border:1px solid rgb(90, 90, 95);
+}
+
+button
+{
+    width: 90%;
+    align-self: center;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius:5px;
+    font-family: "Century Gothic";
+}
+
+.notificationsDiv
+{
+    margin: 5%;
+    margin-bottom: 4px;
+}
+
+.notification
+{
+    flex:1 0;
+    border-top-right-radius: 10px;
+    background-color: rgb(90, 90, 95);
+    /* ok */
+    /* background-color: rgb(20, 150, 20); */
+    /* warning */
+    /* background-color: rgb(180, 138, 32); */
+    /* error */
+    /* background-color: rgb(192, 64, 64); */
+    color: white;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.glavniDiv
+{
+    display: flex;
+    flex-direction: row;
+    min-height: 35%;
+    margin: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.poprecniPresek
+{
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    min-width: 20%;
+    flex-flow:row wrap;
+    flex:1 0;
+    justify-content:flex-start;
+    object-fit:contain;
+}
+
+.menuDiv
+{
+    display:flex;
+    flex:1 0;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    background-color: darkgray;
+}
+
+.bodiesDiv
+{
+    display:flex;
+    flex:1 0;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background-color: rgb(90, 90, 95);
+}
+
+.bodyDiv
+{
+    display: flex;
+    width: 45%;
+    height: 50px;
+    margin: 5px;
+    background-color: gainsboro;
+    align-items: center;
+}
+
+.registerLoginDiv
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+.stiklirano
+{
+    width:auto;
+}
+
+.userInteraction
+{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 11em;
+    background-color: rgb(90, 90, 95);
+    border-radius: 5px;
+    margin: 5%;
+    margin-top: 4px;
+    margin-bottom: 0%;
+}
+
+@media (hover:hover)
+{
+    button:hover{
+        background-color: rgb(44, 44, 48);
+        color:gainsboro;
+    }
+
+    button:active{
+        background-color: rgb(75, 74, 74);
+    }
+}
+
+/* #shape-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#shape-container div {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    position: relative;
+    display: none;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 173.21px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#trapezoid {
+    width: 150px;
+    height: 100px;
+    border-bottom: 50px solid blue;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rectangle {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
